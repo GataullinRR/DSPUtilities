@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DSPTests</RootNamespace>
     <AssemblyName>DSPTests</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -60,13 +60,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Utilities\Utilities\Utilities.csproj">
-      <Project>{b76d158d-0ad4-4656-848b-2b33e2684e08}</Project>
-      <Name>Utilities</Name>
+    <ProjectReference Include="..\..\Utilities\UtilitiesStandard\UtilitiesStandard.csproj">
+      <Project>{513a2ad5-e53f-43cd-8cab-a52d4f2da36c}</Project>
+      <Name>UtilitiesStandard</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DSPLib\DSP.csproj">
+    <ProjectReference Include="..\DSPLib\DSPUtilities.csproj">
       <Project>{32AF0E39-DEFE-411A-B832-3CA1BA7C3633}</Project>
-      <Name>DSP</Name>
+      <Name>DSPUtilities</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
